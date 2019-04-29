@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WindowsDriverPaths>
+  <WindowsDriverPath>
+    <Manufacture>ASMedia</Manufacture>
+    <Type>USB</Type>
+    <PathX86>USB\ASMUSB\Driver</PathX86>
+    <PathX64>USB\ASMUSB\Driver</PathX64>
+  </WindowsDriverPath>
+  
+  <WindowsDriverPath>
+    <Manufacture>Intel</Manufacture>
+    <Type>USB</Type>
+    <PathX86>USB\IntelUSB30\Drivers\Win7\x86</PathX86>
+    <PathX64>USB\IntelUSB30\Drivers\Win7\x64</PathX64>
+  </WindowsDriverPath>
+  <WindowsDriverPath>
+    <Manufacture>Intel</Manufacture>
+    <Type>USB</Type>
+    <PathX86>USB\IntelUSB30\Drivers\HCSwitch\x86</PathX86>
+    <PathX64>USB\IntelUSB30\Drivers\HCSwitch\x64</PathX64>
+  </WindowsDriverPath>
+  
+  <WindowsDriverPath>
+    <Manufacture>Intel</Manufacture>
+    <Type>USB</Type>
+    <PathX86>USB\ARUSB\x86\USBController</PathX86>
+    <PathX64>USB\ARUSB\x64\USBController</PathX64>
+  </WindowsDriverPath>
+  <WindowsDriverPath>
+    <Manufacture>Intel</Manufacture>
+    <Type>USB</Type>
+    <PathX86>USB\ARUSB\x86\USBHub</PathX86>
+    <PathX64>USB\ARUSB\x64\USBHub</PathX64>
+  </WindowsDriverPath>
+  
+  <WindowsDriverPath>
+    <Manufacture>Samsung</Manufacture>
+    <Type>NVMe</Type>
+    <PathX86>StorageControllers\Samsung_NVMe</PathX86>
+	<PathX64>StorageControllers\Samsung_NVMe</PathX64>
+  </WindowsDriverPath>
+</WindowsDriverPaths>

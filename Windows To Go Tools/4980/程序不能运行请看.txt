@@ -1,0 +1,9 @@
+注意：程序路径中不要有中文！
+
+
+
+本程序不再支持XP系统下运行，请XP系统用户下载旧版：
+http://bbs.luobotou.org/thread-6604-1-1.html
+
+VISTA/WIN7系统运行需要安装.NET FRAMEWORK 4.5
+安装包下载地址：http://bbs.luobotou.org/thread-16573-1-1.html

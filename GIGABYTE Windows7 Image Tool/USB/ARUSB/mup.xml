@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MUPDefinition xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd" xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<packageinformation>
+		<installertype>msi</installertype>
+		<packagegrouping>single_package</packagegrouping>	
+		<packagingtype>zip</packagingtype>
+		<releasetype>DRVR</releasetype>	
+		<name>USB 3.1</name>
+		<version>15.2.30.250</version>
+		<mupspecificationversion>2.4.3</mupspecificationversion>
+		<supportedoperatingsystems>
+			<osidentifier name="Windows7" architecture="x86" />
+			<osidentifier name="Windows7" architecture="x64" />
+		</supportedoperatingsystems>		
+	
+	<content>
+		  <Device componentID="104038">
+			<PCIInfo vendorID="8086" deviceID="15B5"/>
+			<PCIInfo vendorID="8086" deviceID="15B6"/>
+			<Image type="DRVR" version="15.2.30.11">
+			  <file>ausb3xhc.sys</file>
+			  <file>ausb3xhc.cat</file>
+			  <file>ausb3xhc.inf</file>
+			</Image>
+		  </Device>
+		  <Device componentID="104038">
+			<Generic>IARUSB3\ROOT_HUB30</Generic>
+			<Generic>IARUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_01</Generic>
+			<Generic>IARUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_02</Generic>
+			<Generic>IARUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_03</Generic>
+			<Generic>IARUSB3\CLASS_09</Generic>
+			<Image type="DRVR" version="15.2.30.11">
+			  <file>ausb3hub.sys</file>
+			  <file>ausb3hub.cat</file>
+			  <file>ausb3hub.inf</file>
+			</Image>
+		  </Device>
+		</content>
+	</packageinformation>	
+	<executable timeout="300">
+		<executablename>setup.exe</executablename>
+	</executable>
+	<behaviors>
+		<behavior name="attended" />
+		<behavior name="unattended">
+			<vendoroption>
+				<optionvalue switch="/" requiresvalue="false">qn</optionvalue>
+			</vendoroption>
+		</behavior>
+		<behavior name="extractdrivers">
+			<vendoroption>
+				<optionvalue requiresvalue="false" switch="/">qn</optionvalue>
+			</vendoroption>
+			<vendoroption>
+				<optionvalue switch="" valuedelimiter="=" requiresvalue="true">EXTRACTDRIVERS</optionvalue>
+			</vendoroption>
+		</behavior>
+		<behavior name="freshinstall">
+			<vendoroption>
+				<optionvalue requiresvalue="false" switch="/">qn</optionvalue>
+			</vendoroption>
+			<vendoroption>			
+				<optionvalue requiresvalue="false" switch="/">freshinstall</optionvalue>
+			</vendoroption>		
+		</behavior>
+	</behaviors>
+	<parameters>
+		<parametermapping name="logfile">
+			<vendoroption>
+				<optionvalue switch="/" valuedelimiter=" " requiresvalue="true">l</optionvalue>
+			</vendoroption>
+		</parametermapping>
+	</parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>1641</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+      <!-- Not valid -->
+      <vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+      <!--Always able to DownGrade, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+      <!--Installer only Reboots Once, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <!-- 1603=Standard Win32 fatal error code -->
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_HARD_ERROR">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>1602</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>3010</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+	<inventorymetadata>
+		<fullpackageidentifier>
+		  <msis>
+			<msi componentID="104038">
+			  <version>15.2.30.250</version>
+			  <upgradecode>{d8ca764e-2c29-4f80-9473-4839386e87fc}</upgradecode>
+			</msi>
+		  </msis>
+		</fullpackageidentifier>
+	</inventorymetadata>
+</MUPDefinition>

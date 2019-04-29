@@ -1,0 +1,5 @@
+﻿WTG辅助工具4.9.8.0
+2019/4/4 13:22:51
+Command:cmd.exe/c del /f /s /q "D:\OneDrive - 87ouo,Inc\Executable Programs\Windows To Go Tools\4980\WTGA\logs\*.*"
+删除文件 - D:\OneDrive - 87ouo,Inc\Executable Programs\Windows To Go Tools\4980\WTGA\logs\wiminfo.xml
+

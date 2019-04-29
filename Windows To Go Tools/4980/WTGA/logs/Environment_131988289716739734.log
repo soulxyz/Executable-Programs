@@ -1,0 +1,29 @@
+﻿WTG辅助工具4.9.8.0
+2019/4/4 13:22:51
+App Path:D:\OneDrive - 87ouo,Inc\Executable Programs\Windows To Go Tools\4980\WTGA
+OS Version:Microsoft Windows NT 6.2.9200.0
+Dism Version:10.0.18362.52 (WinBuild.160101.0800)
+Wim file:D:\Motrix\Windows10_InsiderPreview_Client_x64_zh-cn_18343\sources\install.wim
+Usb Disk:External USB3.0 SCSI Disk Device 111.0 GB (本地磁盘) I:
+Mode:Legacy
+VHDName:wtg
+Re-Partition:True
+VHD Size Set:0
+Fixed VHD:False
+Donet:True
+Disable-WinRE:True
+Block Local Disk:False
+NoTemp:False
+UEFI+GPT:False
+UEFI+MBR:True
+WIMBOOT:False
+CompactOS:False
+No-format:False
+NtfsUefiSupport:True
+FixLetter:True
+SelectedPart:4
+Partitions:114470,0,0
+NoDefalutLetter:False
+Bitlocker:False
+CreateGuid:841d701d-1e1d-4698-a8ef-89cc8866ac2d
+

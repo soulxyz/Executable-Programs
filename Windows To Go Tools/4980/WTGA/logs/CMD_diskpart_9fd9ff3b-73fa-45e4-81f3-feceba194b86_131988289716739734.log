@@ -1,0 +1,16 @@
+﻿WTG辅助工具4.9.8.0
+2019/4/4 13:22:51
+select volume I
+clean
+convert mbr
+create partition primary size 350
+create partition primary
+select partition 1
+format fs=fat32 quick
+active
+assign letter=x
+select partition 2
+format fs=ntfs quick
+assign letter=I
+exit
+

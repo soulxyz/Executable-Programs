@@ -1,0 +1,8 @@
+手动添加hosts
+127.0.0.1 cbs.wondershare.com
+127.0.0.1 www.cbs.wondershare.com
+127.0.0.1 platform.wondershare.com
+127.0.0.1 www.wondershare.com
+
+Licensed E-mail:52pojie@qq.com
+Registration code:7ED14D02A3E48400ACCAB500163F7601

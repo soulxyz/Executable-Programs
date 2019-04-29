@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowsHotfixPaths>
+  <WindowsHotfixPath>
+    <Manufacture>Micorsoft</Manufacture>
+    <PathX86>HOTFIX\x86</PathX86>
+    <PathX64>HOTFIX\x64</PathX64>
+  </WindowsHotfixPath>
+</WindowsHotfixPaths>

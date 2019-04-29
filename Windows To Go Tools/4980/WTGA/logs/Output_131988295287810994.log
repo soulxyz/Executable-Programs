@@ -1,0 +1,10 @@
+﻿WTG辅助工具4.9.8.0
+2019/4/4 13:32:08
+Command:diskpart.exe /s "C:\Users\bili33\AppData\Local\Temp\81667a72-242d-43fb-96e0-4d992b2518ae"
+Microsoft DiskPart 版本 10.0.18362.1
+Copyright (C) Microsoft Corporation.
+在计算机上: SSD-BILI33
+卷 8 是所选卷。
+DiskPart 成功地删除了驱动器号或装载点。
+退出 DiskPart...
+

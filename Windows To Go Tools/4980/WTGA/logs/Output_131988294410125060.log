@@ -1,0 +1,12 @@
+﻿WTG辅助工具4.9.8.0
+2019/4/4 13:30:41
+Command:dism.exe/image:I:\ /add-driver /driver:"D:\OneDrive - 87ouo,Inc\Executable Programs\Windows To Go Tools\4980\WTGA\Drivers" /recurse /ForceUnsigned
+部署映像服务和管理工具
+版本: 10.0.18362.1
+映像版本: 10.0.18343.1
+正在搜索要安装的驱动程序包...
+错误: 2
+在指定路径下找不到驱动程序包。
+验证驱动程序 .INF 文件是否在指定位置，然后重试该命令。
+可以在 C:\WINDOWS\Logs\DISM\dism.log 上找到 DISM 日志文件
+
