@@ -1,4 +1,4 @@
-https://:11108 {
+https://:10020 {
 #tls self_signed
 tls steamcommunity.crt steamcommunity.key
     # default/catchall
