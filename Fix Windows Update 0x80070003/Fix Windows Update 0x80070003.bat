@@ -23,7 +23,7 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-
+::获取管理员权限 ↑
 @echo off
 title Fix Windows Update Error: 0x80070003
 @echo [1]Simple Fix Mode
