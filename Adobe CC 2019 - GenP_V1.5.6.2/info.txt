@@ -1,0 +1,15 @@
+﻿Adobe CC 2019 - GenP_V1.5.6.2
+
+Release notes:
+- Faster search for patterns
+- Search pattern -> *Home_Screen_FIX_*.exe (hutufamily). also updated to latest version
+- Lightroom naming update
+- XD naming update
+- Global homescreen fix for Prelude, Premiere, After Effects (frontend is not touched anymore)
+- Prelude crash on "Inqest" fix
+
+Known issues if you are not Signed in to account:
+- Missing SignIn menu for Animate
+- Disabled Language select for XD
+- Disabled Develope module for Lightroom
+- Disabled functionality for Rush
